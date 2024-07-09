@@ -81,7 +81,10 @@ public class Window extends JFrame implements Runnable{
 		
 		g.setColor(Color.BLACK);
 		
-		g.fillRect(0, 0, Constants.WIDTH, Constants.HEIGHT);
+		
+		g.drawImage(Assets.fondo, 0, 0, getForeground(), canvas);
+		
+		//g.fillRect(0, 0, Constants.WIDTH, Constants.HEIGHT);
 		
 		gameState.draw(g);
 		

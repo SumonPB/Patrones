@@ -4,8 +4,8 @@ public class Constants {
 	
 	// frame dimensions
 	
-	public static final int WIDTH = 1000;
-	public static final int HEIGHT = 600;
+	public static final int WIDTH = 1380;
+	public static final int HEIGHT = 730;
 	
 	// player properties
 	

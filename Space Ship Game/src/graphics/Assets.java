@@ -25,9 +25,14 @@ public class Assets {
 	public static BufferedImage[] smalls = new BufferedImage[2];
 	public static BufferedImage[] tinies = new BufferedImage[2];
 	
+	//fondo
+	
+	public static BufferedImage fondo;
 	
 	public static void init()
 	{
+		fondo = Loader.ImageLoader("/ships/fondo01.jpeg");
+		
 		player = Loader.ImageLoader("/ships/PlayerGreen.png");
 		
 		speed = Loader.ImageLoader("/effects/fire09.png");
